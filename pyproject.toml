@@ -1,0 +1,18 @@
+[project]
+name = "task-10-2-14-3"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Stanislav Dulskiy",email = "bplayer@mail.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "task_10_2_14_3", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
